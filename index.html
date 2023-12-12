@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GLEB</title>
+    <link rel="icon" href="favicon.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main-box"></div>
+    <div>
+      <img src="favicon.jpg" style="width: 200px; height: 180px; display: flex;" class="image-logo"/>
+      <p style="width: 200px; display: flex;" class="text">
+        Explore the world of handmade hand creams crafted with care and
+        attention to detail. Discover the joy of using natural ingredients, from
+        soothing essential oils to moisturizing plant-based oils, as you embark
+        on a journey to healthier, softer hands. Our recipes cater to various
+        skin types and concerns, allowing you to customize your hand cream to
+        perfection.
+      </p>
+    </div>
+
+    <div class="video-container" style="display: flex;">
+      <iframe
+        width="400"
+        height="225"
+        src="https://www.youtube.com/embed/2tU6YASsoqg?si=lf-nA1aToumuH5sy"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      ></iframe>
+    </div>
+    
+      
+
+      <div class="cream-types">
+        <div class="cream-type-boxes-1">
+          <button class="hidden-button" onclick="toggleHiddenContent(1)">
+            <p>Hand cream recipe for dry skin</p>
+            <img
+              src="1.jpeg"
+              style="width: 50px; margin-top: 25px; margin-left: 5px"
+            />
+          </button>
+          <div id="hidden-content-1" class="hidden-content">
+            <h3>Oil phase:</h3>
+            <ul>
+              <li>
+                Shea butter(highly moisturizing and great for dry skin)
+                -5g-concentration in cream-10%
+              </li>
+              <li>
+                Coconut butter(has excellent moisturizing properties)
+                -7g-concentration in cream-15%
+              </li>
+              <li>
+                Almond oil(provides moisture and nourishment) -7g-concentration
+                in cream-15%
+              </li>
+              <li>
+                Emulsifier( stabilize the mixture and prevent separation of
+                water and oil) -2.5g-concentration in cream-5%
+              </li>
+            </ul>
+            <h3>Water phase:</h3>
+            <ul>
+              <li>
+                Distilled water(provides purity and humidification)
+                -25g-concentration in cream-50%
+              </li>
+              <p>You can also add aloe vera or different hydrolats.</p>
+            </ul>
+            <h3>Active phase:</h3>
+            <ul>
+              <li>
+                Vitamins, such as Vitamin E or Vitamin B5 (Panthenol) or other
+                preservatives (Antioxidant properties, help protect skin from
+                environmental damage) -0.5ml-concentration in cream-1%
+              </li>
+              <li>
+                Essential oils(have antimicrobial and antibacterial benefits,
+                and also calming and relaxing qualities, skin nourishment)
+                -1g-concentration in cream-2%
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cream-type-boxes-2">
+          <button class="hidden-button" onclick="toggleHiddenContent(2)">
+            <p>Hand cream recipe for normal skin</p>
+            <img
+              src="2.jpeg"
+              style="width: 50px; margin-top: 25px; margin-left: 2px"
+            />
+          </button>
+          <div id="hidden-content-2" class="hidden-content">
+            <h3>Oil phase:</h3>
+            <ul>
+              <li>
+                Shea Butter (highly moisturizing and great for dry skin)
+                -5g-Concentration in cream-10%
+              </li>
+              <li>
+                Coconut Butter (absorbs rapidly) -4g-concentration in cream-8%
+              </li>
+              <li>
+                Almond Oil (suitable for most skin types and provides moisture
+                and nourishment) -4g-concentration in cream-8%
+              </li>
+              <li>
+                Jojoba Oil (lightweight and suitable for most skin types)
+                -4g-concentration in cream-8%
+              </li>
+              <li>
+                Emulsifier (stabilize the mixture and prevent separation of
+                water and oil) -2.5g-concentration in cream-5%
+              </li>
+            </ul>
+
+            <h3>Water Phase:</h3>
+            <ul>
+              <li>
+                Distilled water (provides purity and humidification)
+                -25g-concentration in cream-50%
+              </li>
+              <li>
+                Glycerine (provides optimal hydration and skincare benefits)
+                -2.5g-concentration in cream-5%
+              </li>
+            </ul>
+
+            <h3>Active Phase:</h3>
+            <ul>
+              <li>
+                Preservatives (prevent the growth of harmful microorganisms,
+                help ensure the safety and stability of the product)
+                -1.5g-concentration in cream-3%
+              </li>
+              <li>
+                Essential oils (have antimicrobial and antibacterial benefits,
+                and also calming and relaxing qualities, skin nourishment)
+                -1g-concentration in cream-2%
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cream-type-boxes-3">
+          <button class="hidden-button" onclick="toggleHiddenContent(3)">
+            <p>Hand cream recipe for oily skin</p>
+            <img
+              src="3.jpeg"
+              style="width: 50px; margin-top: 25px; margin-left: 5px"
+            />
+          </button>
+          <div id="hidden-content-3" class="hidden-content">
+            <h3>Oil Phase:</h3>
+            <ul>
+              <li>
+                Coconut Butter (absorbs rapidly) -5g-Concentration in cream-10%
+              </li>
+              <li>
+                Grapeseed oil (a lightweight, non-greasy oil that's easily
+                absorbed) -5g-Concentration in cream-10%
+              </li>
+              <li>
+                Jojoba oil (lightweight and suitable for most skin types)
+                -5g-Concentration in cream-10%
+              </li>
+              <li>
+                Apricot kernel oil (a lightweight oil) -5g-Concentration in
+                cream-10%
+              </li>
+              <li>
+                Emulsifier(stabilize the mixture and prevent separation of water
+                and oil) -2.5g-concentration in cream-5%
+              </li>
+            </ul>
+
+            <h3>Water Phase:</h3>
+            <ul>
+              <li>
+                Distilled water or different hydrolats (provides purity and
+                humidification) -25g-Concentration in cream-50%
+              </li>
+            </ul>
+
+            <h3>Active Phase:</h3>
+            <ul>
+              <li>
+                Vitamins or other preservatives (prevent the growth of harmful
+                microorganisms, help ensure the safety and stability of the
+                product) -1.5g-Concentration in cream-3
+              </li>
+              <li>
+                Essential oils(have antimicrobial and antibacterial benefits,
+                and also calming and relaxing qualities, skin nourishment)
+                -1g-Concentration in cream-2%
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
